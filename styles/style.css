@@ -59,7 +59,7 @@
 
 .cover {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   padding: 164px 50px 52px;
   color: #fff;
