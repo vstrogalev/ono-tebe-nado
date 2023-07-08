@@ -118,7 +118,7 @@
 .cover__description-text {
   font-weight: normal;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-transform: uppercase;
   word-spacing: 18px;
 }
@@ -145,7 +145,6 @@
   padding-left: 40px;
   font-weight: bold;
   font-size: 40px;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -240,7 +239,6 @@
   align-self: center;
   font-weight: bold;
   font-size: 40px;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -268,7 +266,6 @@
 .footer__menu-link {
   display: block;
   font-size: 18px;
-  line-height: normal;
   text-align: center;
 }
 
