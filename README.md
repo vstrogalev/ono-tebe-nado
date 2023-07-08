@@ -6,3 +6,6 @@
 
 #Used technilogies
 HTML, CSS
+
+#Link to github repo
+https://github.com/vstrogalev/ono-tebe-nado
