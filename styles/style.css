@@ -134,6 +134,8 @@
   color: #fff;
 }
 
+/* --- section lots --- */
+
 .lots {
   padding: 180px 50px 0;
 }
@@ -154,10 +156,8 @@
   gap: 25px;
 }
 
-.lots__card-list-item {
-}
-
 .card-link {
+  text-decoration: none;
 }
 
 .card {
@@ -204,4 +204,50 @@
   margin-top: 30px;
   padding-left: 40px;
   font-size: 20px;
+}
+
+/* --- section about --- */
+
+.about {
+  padding: 182px 50px 180px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 240px auto;
+  column-gap: 25px;
+  row-gap: 0;
+}
+
+.about__logo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: 0 auto;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  align-self: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
